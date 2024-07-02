@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgb(36, 36, 36);
+}
+
+.left {
+    width: 40%;
+    background-color: #333;
+    color: rgb(160, 159, 241);
+    padding: 20px;
+    text-align: center;
+}
+
+.right {
+    width: 65%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+.contact, .education, .references, .about, .experience, .skills, .language {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.contact p, .education p, .references p {
+    color: #ffffff;
+}
+
+h3 {
+    border-bottom: 2px solid #a859d6;
+    padding-bottom: 5px;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.footer-button {
+    margin: 0 10px;
+}
+
+.footer-button a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.footer-button a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.footer-button .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.footer-text {
+    text-align: center;
+    background-color: #020706;
+    color: rgb(160, 159, 241);
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
